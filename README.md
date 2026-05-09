@@ -20,9 +20,10 @@ requests
 ## Installation
 
 1. Install the required packages:
+   
 pip install pynput requests
 
-2. Configure the bot:
+3. Configure the bot:
 - Create a Telegram bot by messaging @BotFather on Telegram
 - Get your bot token
 - Get your chat ID (send a message to your bot, then check @UserInfo3Bot)
