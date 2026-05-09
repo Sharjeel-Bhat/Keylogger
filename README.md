@@ -14,14 +14,15 @@ A Python keylogger that sends captured keystrokes to a Telegram bot.
 - Python 3.x
 - Windows OS (for autorun functionality)
 - Required packages:
-pynput
-requests
+
+  pynput
+  requests
 
 ## Installation
 
 1. Install the required packages:
    
-pip install pynput requests
+   pip install pynput requests
 
 3. Configure the bot:
 - Create a Telegram bot by messaging @BotFather on Telegram
